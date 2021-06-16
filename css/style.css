@@ -72,7 +72,13 @@ header{
     border-radius: 25%;
     filter: drop-shadow(2px 4px 6px black);
 }
-
+.navbar-brand span{
+    font-size: 40px;
+    font-weight: 700;
+    color: #275227;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+}
 .navbar-light .navbar-nav .nav-link {
     display: block;
     color: rgb(86 73 77);
@@ -94,6 +100,8 @@ header{
 
 
 /*banner-content*/
+
+
 .banner-content{
     width: 40%;
     flex: 0 0 auto;
