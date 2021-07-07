@@ -169,10 +169,6 @@ svg {
   color: #101010;
   padding: 50px 0px;
 }
-.Course-section {
-}
-.Course-section span {
-}
 
 .col-3 {
   width: 33.33%;
@@ -183,8 +179,7 @@ svg {
 .col-3:hover {
   box-shadow: 8px 8px 20px 1px #738c8c, 9px 8px 24px 4px #fffcfc;
 }
-.col-3 a {
-}
+
 .col-3 a img {
   border-radius: 10px;
 }
@@ -199,37 +194,10 @@ svg {
   justify-content: space-between;
 }
 
-.col-3 i {
-}
-
 /*testimonial-section*/
 .testimonial-section .flex {
   justify-content: center;
   align-items: center;
-}
-
-.client-img {
-  width: 30%;
-  float: left;
-}
-.client-img img {
-  border-radius: 50%;fle
-}
-.client-content {
-  width: 50%;
-  float: right;
-  padding: 50px;
-  background: #aac5aa;
-  margin-left: 10px;
-  border-radius: 20px;
-  box-shadow: 2px 7px 20px 0px #444242, -5px -5px 24px #8da292;
-}
-
-.client-content:hover {
-  box-shadow: 2px 7px 20px 0px #8da292, -5px -5px 24px #444242;
-}
-.client-content p {
-  font-size: 20px;
 }
 
 .carousel {
@@ -237,16 +205,13 @@ svg {
   height: 60vh;
   background-color: rgb(175, 55, 55);
 }
-carousel-item .flex{
-    justify-content: center;
-    position: relative;
-}
-.client_photo {
-    height: 45vh;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    transform: translate(-50%, -50%);
+
+.client_photo img {
+  position: absolute;
+  height: 45vh;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
 }
 
 /*footer*/
@@ -261,8 +226,7 @@ footer p {
 footer ul {
   text-align: left;
 }
-footer ul li {
-}
+
 footer ul li a {
   color: #fff;
   font-size: 13px;
